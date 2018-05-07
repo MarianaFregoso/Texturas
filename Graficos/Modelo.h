@@ -23,13 +23,17 @@ public:
 	mat4 modelo;
 	mat4 vista;
 	mat4 proyeccion;
-
+	GLuint uvBufferID;
 	Shader *shader;
 	GLuint vertexArrayID;
 	GLuint bufferID;
+	vector<vec2> mapaUV; 
+
+
 	Modelo();
 
-	void inicializarVertexArray(GLuint posicionID, GLuint colorID, GLuint modeloID, GLuint vistaID, GLuint proyeccionID);
+	void inicializarVertexArray(GLuint posicionID, GLuint colorID, GLuint modeloID,
+		GLuint vistaID, GLuint proyeccionI, GLuint uvID, GLuint samplerImagenID, GLuint texturaID);
 	void dibujar(GLenum modoDibujo);
 
 

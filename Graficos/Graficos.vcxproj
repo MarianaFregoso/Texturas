@@ -171,9 +171,14 @@
     <None Include="fshadersimple.shader">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="GLFW\glfw3.dll" />
+    <None Include="GL\glew32.dll" />
     <None Include="vshadersimple.shader">
       <DeploymentContent>true</DeploymentContent>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texturas\dibujo.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -61,5 +61,16 @@
     <None Include="fshadersimple.shader">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="GL\glew32.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GLFW\glfw3.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texturas\dibujo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
